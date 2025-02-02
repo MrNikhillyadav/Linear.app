@@ -24,7 +24,7 @@ module.exports = {
       white: "#fff",
       "off-white": "#f7f8f8",
       "transparent-white": "rgba(255, 255, 255, 0.08)",
-      background: "#08090a",
+      background: "#000212",
       grey: "#858699",
       "grey-dark": "#222326",
       "primary-text": "#b4bcd0",

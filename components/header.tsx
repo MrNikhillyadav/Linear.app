@@ -30,7 +30,7 @@ export const Header = () => {
 
   return (
     <header className="fixed  top-0 left-0 z-10 right-0 rounded-2xl m-auto max-w-[1200px] mt-2 border border-transparent-white backdrop-blur-[12px]">
-      <Container className="flex h-navigation-height">
+      <Container className="flex justify-between items-center h-navigation-height">
         <Link className="flex items-center text-md" href="/">
           <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> Linear
         </Link>
