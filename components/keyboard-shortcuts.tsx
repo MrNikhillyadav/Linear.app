@@ -78,11 +78,11 @@ export const KeyboardShortcuts = () => {
     <>
       <div
         ref={illustrationWrapperRef}
-        className="mask-keyboard absolute top-0 -left-12 h-full max-h-[30rem] w-[200%] md:relative md:left-auto md:w-full"
+        className="mask-keyboard absolute top-0 -left-12 h-full  max-h-[30rem] w-[100%] md:relative md:left-auto md:w-full"
       >
         <KeyboardIllustration />
       </div>
-      <div className="my-7 hidden h-[4rem] min-h-[4rem] w-full overflow-hidden md:block">
+      <div className="my-6 hidden h-[3rem] min-h-[3rem] w-full overflow-hidden md:block">
         <div
           ref={wrapperRef}
           className="mask-shortcutkeys flex h-[6rem] max-w-full snap-x snap-mandatory gap-2 overflow-auto pb-8"

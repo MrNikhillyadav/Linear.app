@@ -6,7 +6,7 @@ import { ZapIllustration } from "../illustrations/zap";
 import { KeyboardShortcuts } from "../keyboard-shortcuts";
 
 export const UnlikeAnyTool = () => (
-  <div className="text-white">
+  <div className="text-white  text-center border">
     <Container>
       <div className="text-center">
         <h2 className="mb-4 text-4xl md:mb-7 md:text-7xl">
@@ -19,9 +19,9 @@ export const UnlikeAnyTool = () => (
         </p>
       </div>
     </Container>
-    <div className="h-[48rem] overflow-hidden md:h-auto md:overflow-auto">
+    <div className="h-[48rem] border px-4 overflow-hidden md:h-auto md:overflow-auto">
       <div className="flex snap-x snap-mandatory gap-6 overflow-x-auto px-8 pb-12 md:flex-wrap md:overflow-hidden">
-        <div className="relative flex min-h-[48rem] w-full shrink-0 snap-center flex-col items-center justify-end overflow-hidden rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:max-w-[calc(66.66%-12px)] md:basis-[calc(66.66%-12px)] md:p-14">
+        <div className="relative flex min-h-[48rem] w-full shrink-0 snap-center flex-col items-center justify-end overflow-hidden rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:max-w-[calc(66.66%-15px)] md:basis-[calc(66.66%-15px)] md:p-12">
           <KeyboardShortcuts />
           <p className="mb-4 text-3xl">Built for your keyboard</p>
           <p className="text-md text-primary-text">
